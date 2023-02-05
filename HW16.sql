@@ -1,4 +1,4 @@
-SELECT * FROM study.employees ORDER BY LAST_NAME;
+SELECT * FROM study.employees ORDER BY LAST_NAME ASC;
 SELECT FIRST_NAME, LAST_NAME, SALARY, SALARY*0.15 FROM study.employees;
 SELECT SUM(SALARY) FROM study.employees;
 SELECT MIN(SALARY), MAX(SALARY) FROM study.employees;
